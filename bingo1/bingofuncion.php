@@ -48,7 +48,8 @@ function construirCartones($numjug, $jugadores){ //esta funcion llena de numeros
             for ($i=0; $i < $numjug ; $i++) { 
                 for ($j=0; $j <3 ; $j++) { 
                     if (in_array($bola, $jugadores[$i][$j])) { //Si el numero esta en el carton
-                        array_splice($jugadores[$i][$j], array_search($bola, $jugadores[$i][$j]),1);// lo sacamos del array
+                        array_splice($jugadores[$i][$j], array_search($bola, $jugadores[$i][$j]),1);// lo sacamos del array. Array_splice — Elimina una porción del array y la reemplaza con otra cosa
+                    }
                     }
                     if (count($jugadores[$i][$j])==0) { //Si el carton se queda a 0 has ganado
                         $ganador=true;
