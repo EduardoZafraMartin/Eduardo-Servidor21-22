@@ -12,7 +12,7 @@
 
 
 <?php
-//JORGE BLAZQUEZ
+//Eduardo Zafra
 //variables
 include 'bingofuncion.php';
 $numjug=4;//Numero de Jugadores
