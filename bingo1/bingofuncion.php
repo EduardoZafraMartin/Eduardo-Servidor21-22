@@ -12,7 +12,7 @@
 
 
 <?php
-//JORGE BLAZQUEZ
+//Eduardo Zafra
 //variables
 
 function crearJugadores($numjug, $jugadores){//Esta funcion crea un array de jugadores y cartones basado en el numero de jugadores requerido
