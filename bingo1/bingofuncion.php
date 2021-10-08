@@ -50,7 +50,7 @@ function construirCartones($numjug, $jugadores){ //esta funcion llena de numeros
                     if (in_array($bola, $jugadores[$i][$j])) { //Si el numero esta en el carton
                         array_splice($jugadores[$i][$j], array_search($bola, $jugadores[$i][$j]),1);// lo sacamos del array
                     }
-                    if (count($jugadores[$i][$j])==0) { //Si el carton se queda a 0 has ganao fiera maquinon tuneladora mecanica
+                    if (count($jugadores[$i][$j])==0) { //Si el carton se queda a 0 has ganado
                         $ganador=true;
                         echo "</br> Ha ganado el jugador ".($i+1)." con el carton ".($j+1)."."; //Ganador dentro del bucle por si hay varios ganadores.
                     }
