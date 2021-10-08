@@ -85,7 +85,7 @@ function construirCartones($numjug, $jugadores){ //esta funcion llena de numeros
         }
         echo "</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>";
         while (count($bombo)!=0) {	
-            echo '<img src="img/'.array_pop($bombo).'.png" width="30px">';
+            echo '<img src="img/'.array_pop($bombo).'.png" width="30px">';//array_pop() extrae y devuelve el último elemento del array, acortando el array con un elemento menos.
         }
     }
     ?>
