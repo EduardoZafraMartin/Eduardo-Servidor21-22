@@ -65,7 +65,7 @@ function construirCartones($numjug, $jugadores){ //esta funcion llena de numeros
         }
         return $bomboog;
     }
-    function imprimirJuego($numjug,$jugadores,$bombo){ //Imprime una tabla de html absurdamente fea
+    function imprimirJuego($numjug,$jugadores,$bombo){ //Imprime una tabla de html 
         for ($i=0; $i < $numjug ; $i++) {  
             for ($j=0; $j <3 ; $j++) { //una tabla por jcarton
             echo "<table style='border: 1px solid black;'>";
